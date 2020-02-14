@@ -12,32 +12,26 @@
     <nav class="">Home</nav>
     <div class="container-fluid">
             <div class="row justify-content-center">
-                            <form class="form border p-3">
-                                <h1>DATA ENTRY FORM</h1>
-                    <div class="form-group">
-                        <label for="name">Enter Name</label>
-                        <input type="text" id="name" class="form-control">
-                    </div>
-                    <div class="form-group">
-                  <input type="radio" name="gender" id="Male" value="M" onclick="passGender('M')">Male
-                    </div>
-                  <input type="radio" name="gender" id="female" value="F" onclick="passGender('F')">Female
-                  <div class="form-group">
-                  <label for="date" >Date of Birth</label>
-                  <input type="date" name="date" class="form-control" id="date" value="">  
-                  </div> 
-                    <div class="form-group">
-                        <input type="" value="submit" class="btn btn-primary" onclick="passGender()">
-                        <input type="reset" class="btn btn-danger">
-                        </div>
-                        <div class="form-group">
-                            <label for="Akan">Akan Name;</label>
-                            <input type="text" class="form-control" name="" id="Akan" disabled>
-                        </div>
-                    </div> 
+         <form action="" class="p-3 form-horizontal border" onsubmit="return false">
+          <h1>DATA ENTRY FORM</h1>
+            <div class="form-group">
+             <label for="username">Enter YourName</label>
+             <input type="text" class="form-control" id="username">
             </div>
-        </div>
-    </div>
-    
+            <div class="form-group">
+              <label for="date">Enter Your Date of Birth</label> 
+               <input type="date" class="form-control" id="date">
+            </div>
+            <div class="form-group">
+                <label for="male"> <input name="name" onclick="passGender 'M'" type="radio" id="male">Male</label>
+            </div>
+            <div class="form-group">
+                <label for="male"> <input name="name" onclick="passGender 'F'" type="radio" id="female">Female</label>
+            </div>
+            <div class="form-group">
+                <label for="Akan">This is Your Akan Name</label>
+                <input type="text" class="form-control" name="" id="Akan" disabled>
+            </div>
+                                </form>
 </body>
 </html>
