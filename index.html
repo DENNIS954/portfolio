@@ -9,9 +9,11 @@
     <title>my-2nd-portfolio</title>
 </head>
 <body>
-    <nav class="">Home</nav>
+    <nav class="will">HOME</nav>
+    <nav class="will">About</nav>
     <div class="info border container p-3 m-4 reign">
-        
+    <h3><b>WELCOME!</b></h3> 
+    <p>This is an entry form that will show you your Akan name depending on your date of birth.Akan names. The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. ... </p>  
     </div>
     <div class="container-fluid">
             <div class="row justify-content-center">
@@ -26,13 +28,13 @@
                <input type="date" class="form-control" id="date">
             </div>
             <div class="form-group">
-                <label for="male"> <input name="name" onclick="passGender('M')" type="radio" id="male">Male</label>
+                <label for="male"> <input name="name" type="radio" id="gender">Male</label>
             </div>
             <div class="form-group">
-                <label for="female"> <input name="name" onclick="passGender('F')" type="radio" id="female">Female</label>
+                <label for="female"> <input name="name" type="radio" id="gender">Female</label>
             </div>
             <div class="form-group">
-                <input type="button" value="submit" class="btn btn-primary" onclick="submit">
+                <input type="submit" value="submit" onclick="getName()" class="btn btn-primary">
                 <input type="reset" class="btn btn-danger">
             </div>
             <div class="form-group">
