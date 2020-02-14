@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="static/js/script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>my-2nd-profolio</title>
+    <title>my-2nd-portfolio</title>
 </head>
 <body>
     <nav class="">Home</nav>
@@ -19,16 +19,20 @@
                         <input type="text" id="name" class="form-control">
                     </div>
                     <div class="form-group">
-                  <input type="radio" name="gender" id="Male" class="" onclick="gender('M')">Male
-                    </div> 
-                  <input type="radio" name="gender" id="female" onclick="gender('F')">Female <br>
+                  <input type="radio" name="gender" id="Male" value="M" onclick="passGender('M')">Male
+                    </div>
+                  <input type="radio" name="gender" id="female" value="F" onclick="passGender('F')">Female
                   <div class="form-group">
                   <label for="date" >Date of Birth</label>
-                  <input type="date" name="date" class="form-control" id="date">  
-                  </div>
+                  <input type="date" name="date" class="form-control" id="date" value="">  
+                  </div> 
                     <div class="form-group">
                         <input type="" value="submit" class="btn btn-primary" onclick="passGender()">
                         <input type="reset" class="btn btn-danger">
+                        </div>
+                        <div class="form-group">
+                            <label for="Akan">Akan Name;</label>
+                            <input type="text" class="form-control" name="" id="Akan" disabled>
                         </div>
                     </div> 
             </div>
