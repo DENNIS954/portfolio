@@ -28,13 +28,13 @@
                <input type="date" class="form-control" id="date">
             </div>
             <div class="form-group">
-                <label for="male"> <input name="name" type="radio" id="gender">Male</label>
+                <label for="male"> <input name="name" type="radio" id="gender" onclick="passGender('M')">Male</label>
             </div>
             <div class="form-group">
-                <label for="female"> <input name="name" type="radio" id="gender">Female</label>
+                <label for="female"> <input name="name" type="radio" id="gender" onclick="passGender('F')">Female</label>
             </div>
             <div class="form-group">
-                <input type="submit" value="submit" onclick="getName()" class="btn btn-primary">
+                <input type="submit" value="submit" onclick="submit()" class="btn btn-primary">
                 <input type="reset" class="btn btn-danger">
             </div>
             <div class="form-group">
