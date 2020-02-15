@@ -9,5 +9,5 @@ function passGender(gender){
     }else
     Akannames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     var names = Akannames[day];
-    document.getElementById("Akan").value=names; 
+    document.getElementById("Akan").value=names;
 }
