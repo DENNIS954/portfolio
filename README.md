@@ -3,6 +3,7 @@
 #### By Dennis Kiprono
 ## Description
 This project is a web application that gives out the Akan name depending on your date of birth and the day of the week you were born.
+live link: https://dennis954.github.io/portfolio/
 ## Setup/Installation Requirements
 One should have a well functioning computer/laptop with the following;
 1. Atleast 4GB RAM.
